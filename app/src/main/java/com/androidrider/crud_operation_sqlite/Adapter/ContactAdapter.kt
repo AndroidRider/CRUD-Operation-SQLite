@@ -39,7 +39,7 @@ class ContactAdapter(val c:Context, val contactList:ArrayList<ContactModel>, val
                 when(it.itemId){
                     R.id.editText->{
 
-                        val v = LayoutInflater.from(c).inflate(R.layout.add_item,null)
+                        val v = LayoutInflater.from(c).inflate(R.layout.dialog_add_item,null)
 
                         val name = v.findViewById<EditText>(R.id.userName)
                         val number = v.findViewById<EditText>(R.id.userNo)

@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         val tasks = ContactModel()
 
         val inflter = LayoutInflater.from(this)
-        val v = inflter.inflate(R.layout.add_item,null)
+        val v = inflter.inflate(R.layout.dialog_add_item,null)
         /**set view*/
         val contactName = v.findViewById<EditText>(R.id.userName)
         val contactNumber = v.findViewById<EditText>(R.id.userNo)
